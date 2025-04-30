@@ -7,8 +7,8 @@ import {Toaster} from '@/components/ui/toaster';
 const inter = Inter({subsets: ['latin'], variable: '--font-sans'});
 
 export const metadata: Metadata = {
-  title: 'AgencyFlow - Soluções de Marketing',
-  description: 'Soluções de marketing modernas adaptadas para o seu crescimento.',
+  title: 'TipoLike - Soluções Criativas',
+  description: 'Soluções criativas e modernas adaptadas para o seu crescimento.',
 };
 
 export default function RootLayout({

@@ -26,7 +26,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container flex flex-col items-center justify-center gap-6 py-20 text-center md:py-32 lg:py-40">
         <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl">
-          Eleve Sua Marca com <span className="text-primary">AgencyFlow</span>
+          Eleve Sua Marca com <span className="text-primary">TipoLike</span>
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground md:text-xl">
           Oferecemos estratégias de marketing de ponta projetadas para impulsionar o crescimento, aumentar o engajamento e entregar resultados mensuráveis.
@@ -100,7 +100,7 @@ export default function Home() {
               Pronto para Crescer?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Vamos discutir como a AgencyFlow pode ajudar a atingir seus objetivos de marketing. Preencha o formulário e entraremos em contato em breve.
+              Vamos discutir como a TipoLike pode ajudar a atingir seus objetivos de marketing. Preencha o formulário e entraremos em contato em breve.
             </p>
           </div>
           <div>
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
             <Logo className="h-5 w-auto text-foreground" />
             <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-              © {new Date().getFullYear()} AgencyFlow. Todos os direitos reservados.
+              © {new Date().getFullYear()} TipoLike. Todos os direitos reservados.
             </p>
           </div>
           {/* Opcional: Adicionar links sociais ou outro conteúdo de rodapé */}
