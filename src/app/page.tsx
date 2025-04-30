@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ContactForm } from '@/components/contact-form';
 import { Logo } from '@/components/logo';
-import { TrendingUp, Target, Search } from 'lucide-react';
+import { TrendingUp, Target, Search, Code } from 'lucide-react'; // Added Code icon
 
 export default function Home() {
   return (
@@ -46,10 +46,11 @@ export default function Home() {
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <h2 className="text-3xl font-bold leading-[1.1] md:text-4xl">Nossos Serviços</h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Soluções de marketing personalizadas para atender às suas necessidades de negócios exclusivas.
+            Soluções de marketing e desenvolvimento personalizadas para atender às suas necessidades de negócios exclusivas.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {/* Service Card 1: Marketing de Crescimento */}
           <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-lg font-medium">
@@ -63,6 +64,8 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
+
+          {/* Service Card 2: Estratégia de Marca */}
           <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-lg font-medium">
@@ -76,6 +79,8 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
+
+          {/* Service Card 3: Publicidade Digital */}
           <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-lg font-medium">
@@ -86,6 +91,21 @@ export default function Home() {
             <CardContent>
               <p className="text-sm text-muted-foreground">
                 Campanhas direcionadas em plataformas digitais para maximizar o alcance e o ROI.
+              </p>
+            </CardContent>
+          </Card>
+
+          {/* Service Card 4: Criação de Websites */}
+          <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 md:col-start-2 lg:col-start-auto"> {/* Adjust column start for layout */}
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-lg font-medium">
+                Criação de Websites
+              </CardTitle>
+              <Code className="h-6 w-6 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground">
+                Desenvolvemos websites modernos, responsivos e otimizados para o seu negócio.
               </p>
             </CardContent>
           </Card>
