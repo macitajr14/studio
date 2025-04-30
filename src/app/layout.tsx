@@ -7,8 +7,8 @@ import {Toaster} from '@/components/ui/toaster';
 const inter = Inter({subsets: ['latin'], variable: '--font-sans'});
 
 export const metadata: Metadata = {
-  title: 'AgencyFlow - Marketing Solutions',
-  description: 'Modern marketing solutions tailored for your growth.',
+  title: 'AgencyFlow - Soluções de Marketing',
+  description: 'Soluções de marketing modernas adaptadas para o seu crescimento.',
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pt" suppressHydrationWarning>
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
@@ -25,9 +25,9 @@ export default function RootLayout({
         )}
       >
         <div className="relative flex min-h-screen flex-col">
-          {/* Can add Header here if needed site-wide */}
+          {/* Pode adicionar Cabeçalho aqui se necessário em todo o site */}
           <main className="flex-1">{children}</main>
-          {/* Can add Footer here if needed site-wide */}
+          {/* Pode adicionar Rodapé aqui se necessário em todo o site */}
         </div>
         <Toaster />
       </body>
