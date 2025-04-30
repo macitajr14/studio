@@ -49,7 +49,7 @@ export default function Home() {
             Soluções de marketing e desenvolvimento personalizadas para atender às suas necessidades de negócios exclusivas.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4"> {/* Changed to lg:grid-cols-4 */}
           {/* Service Card 1: Marketing de Crescimento */}
           <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -96,7 +96,7 @@ export default function Home() {
           </Card>
 
           {/* Service Card 4: Criação de Websites */}
-          <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 md:col-start-2 lg:col-start-auto"> {/* Adjust column start for layout */}
+           <Card className="transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1"> {/* Removed md:col-start-2 lg:col-start-auto */}
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-lg font-medium">
                 Criação de Websites
